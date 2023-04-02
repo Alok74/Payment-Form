@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Personal Information</h1>  
+    <div>
+        <p> 
+            Name:  <input type="text" placeholder="Rahul Yadav">
+        </p><fieldset><legend>Gender</legend>
+        <p>  Male: <input type="radio" name="Gender"> Female: <input type="radio" name="Gender"></p>
+        </fieldset>
+    </div>
+    <p> 
+        Address: 
+        <textarea name="Address" cols="100"  rows="06" placeholder="Enter your address"></textarea>
+    </p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <h2> Payment Information</h2>
+    <p>Card Type:
+        <select name="card type">
+            <option value="">--Selsect the card type>--</option>
+            <option value="visa">Visa</option>
+            <option value="Master Card">Master</option>
+            <option value="rupay">Rupay</option>
+        </select>
+    </p>
+    <p>
+        Card number:<input type="number">
+        </p>
+        <p>
+        Expiry :<input type="date">
+    </p>
+    <p>CVV:<input type="password"></p>
+    <input type="submit" value="Pay now">
+
+</body>
+</html>
